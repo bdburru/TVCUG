@@ -1,0 +1,224 @@
+body {
+    display:block;
+    background-image: url("../img/tvcug_backgrd.gif");
+    background-repeat:stretch;
+    padding: 5%;
+}
+header{
+    padding: 0 0 1% 0;
+}
+    
+.nav > li > a {
+    background-color: white;
+}
+#left_column {
+	clear: both;
+	float: left;
+	border: solid 2px blue;
+	background: -webkit-linear-gradient(left, rgba(0,0,255,0), rgba(0,0,255,1)); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, rgba(0,0,255,0), rgba(0,0,255,1)); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, rgba(0,0,255,0), rgba(0,0,255,1)); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(0deg, rgba(0,0,126,0.25), rgba(0,0,126,1));
+        width: 18%;
+        padding: 0 0 0 2px;
+}
+#left_column #us_flag {
+    margin: auto;
+    display: block;
+    height: 18em;
+}
+#left_column #pole{
+    position: relative;
+    float: left;
+    height: 90%;
+    width: 5%;
+    top: 1em;
+    display: inline;
+}
+#left_column #flag{
+    height: 33%;
+    width: 95%;
+    position: relative;
+    top: 1.5em;;
+}
+.clear{
+    height: 2em;
+    clear: both;
+}
+#left_column #apcug-logo{
+    clear: both;
+    width: 90%;
+    margin: auto;
+    padding: 5% 0 0 5%;
+}
+main{
+    background: #FFF;
+    border: 5px solid grey;
+    display: inline-block;
+    width: 82%;
+    text-align:center;
+}
+.jumbotron #welcome {
+    padding: 0 1em 0 1em;
+}
+#welcome h1 {
+    color: green;
+    font-weight: bold;
+}
+#welcome h2{
+    color: blue;
+    font-family: fantasy,san-serif;
+    font-weight: bold;
+    font-size: 36px;
+}
+.jumbotron h1, .jumbotron .h1 {
+    font-size: 40px;
+    color: blue;
+    font-family: fantasy, serif;
+}
+.email a {
+    padding-bottom: 10px;
+}
+.date {
+    color: blue;
+}
+map img {
+    margin: auto;
+    padding: 4%;
+    width: 90%;
+    display: block;
+}
+.bottom-nav li {
+    display: inline;
+    color: #00f;
+    padding: 1em;
+}
+footer{
+    clear: both;
+    color: #fff;
+    text-align: center;
+}
+@media screen and (min-width: 1281px) and (max-width: 1920px)   {
+  }
+@media screen and (min-width: 1081px) and (max-width: 1280px)   {
+  }
+@media screen and (min-width: 721px)  and (max-width: 1080px) {
+    #left_column #us_flag {
+        height: 16em;
+    }
+}
+@media screen and (min-width: 481px)  and (max-width: 720px) {
+    .nav-tabs{
+        font-size: 12px;
+        margin: 1px;
+    }
+    .nav > li > a {
+    position: relative;
+    display: block;
+    padding: 3px 3px;
+    background-color: white;
+    }
+    #left_column #us_flag {
+        height: 14em;
+    }
+    .bottom-nav a{
+        font-size: 12px;
+    }
+  }
+@media screen and (min-width: 402px)  and (max-width: 480px) {
+    #left_column #us_flag {
+        height: 16em;
+    }
+    .nav > li > a {
+    position: relative;
+    display: block;
+    padding: 1.5px 2px;
+    /*background-color: white;*/
+    }
+    .bottom-nav li{
+        font-size: 12px;
+        display: table;
+        padding: 0 0 0 20%;
+        margin: 0;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 281px) and (max-width: 401px) {
+    .nav-tabs{
+        font-size: 10px;
+        margin: 1px;
+    }
+    .nav > li > a {
+    position: relative;
+    display: block;
+    padding: 1.5px 2px;
+    /*background-color: white;*/
+    }.bottom-nav li{
+        font-size: 12px;
+        display: table;
+        padding: 0 0 0 20%;
+        margin: 0;
+        text-align: center;
+    }
+    #left_column #us_flag {
+    height: 12em;
+    }
+    h1, .h1, #welcome h1, #event h1,.jumbotron h1, .jumbotron .h1{
+    font-size: 28px;
+    }
+    h2, .h2, #welcome h2, #event h2,.jumbotron h2, .jumbotron .h2{
+    font-size: 20px;
+    }
+    h3, .h3, #welcome h3, #event h3,.jumbotron h3, .jumbotron .h3{
+    font-size: 16px;
+    }
+    h4, .h4, #welcome h4, #event h4,.jumbotron h4, .jumbotron .h4{
+    font-size: 12px;
+    }
+  }
+
+@media screen and (min-width: 0px) and (max-width: 280px) {
+    .nav-tabs{
+        font-size: 10px;
+        margin: 1px;
+        display:table;
+    }
+    .nav > li > a {
+    position: relative;
+    display: table;
+    padding: 0;
+    }
+    #left_column #us_flag {
+    height: 10em;
+    }
+    #left_column #flag{
+        top: 1.11em;
+    }
+    h1, .h1, #welcome h1, #event h1,.jumbotron h1, .jumbotron .h1{
+    font-size: 24px;
+    }
+    h2, .h2, #welcome h2, #event h2, .jumbotron h2, .jumbotron .h2 {
+    font-size: 16px;
+    }
+    h3, .h3, #welcome h3, #event h3, .jumbotron h3, .jumbotron .h3 {
+    font-size: 12px;
+    }
+    h4, .h4, #welcome h4, #event h4, .jumbotron h4, .jumbotron .h4 {
+    font-size: 10px;
+    }
+    /*#welcome email {*/
+    
+    .email a {
+        font-size: 10px;
+        float: left;
+        margin: 0;
+        padding: 0;
+    }
+    .bottom-nav li{
+        font-size: 10px;
+        display: table;
+        padding: 0 0 0 20%;
+        margin: 0;
+        text-align: center;
+    }
+  }
