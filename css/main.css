@@ -11,6 +11,11 @@ header{
 .nav > li > a {
     background-color: white;
 }
+
+.active {
+    font-weight: bold;
+}
+
 #left_column {
 	clear: both;
 	float: left;
