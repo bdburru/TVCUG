@@ -1,0 +1,220 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="TVCUG Website">
+    <meta name="webmaster" content="Ben Burruel">
+    <title>TVCUG About</title>
+    <!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+    <!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+    <!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+    <!--[if gt IE 8]> <html class=""> <![endif]-->
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- Latest compiled and minified  BootStrap CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="shortcut icon" type="image/gif" href="img/logos/tvcug_logo.gif" />
+    
+</head>
+
+<body>
+    
+    <header>
+        <img src="img/tvcug_logo_hdr.jpg" alt="tvcug_header" width="100%">
+    </header>
+    <div class="topnav">
+            <ul class="nav nav-tabs">
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="directions.html">Directions</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li class="active"><a href="aboutus.html">About Us</a></li>
+            </ul>
+        </div><!-- close row -->
+            
+    <div class="col-md-2" id="left_column">
+        <figure id="us_flag">
+            <img id="pole" src="img/flagpole.gif" alt="flagpole"/>
+            <img id="flag" src="img/Usflag_ani.gif" alt="us_flag"/>
+        </figure>
+        
+        <div class="clear">
+        </div>
+        
+        <div id="apcug">
+            <a href="http://www.apcug2.org">
+                <img id="apcug-logo" src="img/Member-of-APCUG-Square-400-Wide.jpg" alt="apcug_logo">
+            </a>
+        </div>
+    </div>
+    <main id="content" class="group" role="main">
+    
+        <section class="jumbotron" id="welcome">
+            <h1>About Us</h1>
+            </p>
+            <h3>
+                <p>
+                    The Temecula Valley Computer User Group (TVCUG) was established in 1991 to educate people on the use of PCs and we continue today to help users as new technologies develop.
+                </p>
+                <p>
+                    We are a cooperative community which means that we welcome people of all experience levels from novice to expert and we encourage members to share their knowledge with all.
+                </p>
+                <p>
+                    If you would like to become a member, please contact our <a href="mailto:tvcug.membership@gmail.com?subject=Membership questions">Membership Chair</a>.
+                    Memberships are calendar year to calendar year.  The cost is:<br>
+                    <br>
+                        Paid Jan thru June: <br>
+                        Family: $40.00<br>
+                        Individual: $25.00<br>
+                    <br>
+                        Paid July thru Dec: <br>
+                        Family: $20.00<br>
+                        Individual: $12.50<br>
+                    <br>
+                        All renewals are due by January 31 of each year.                          
+                </p>
+            </h3>
+        </section>
+        <div class="row">
+            <ul class="bottom-nav">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="directions.html">Directions</a>
+                </li>
+                <li>
+                    <a href="contactus.html">Contact Us</a>
+                </li>
+                <li>
+                    <a href="aboutus.html">About Us</a>
+                </li>
+            </ul>
+        </div>
+    </main>
+
+    <footer role="contentinfo">
+        &copy2008-2014 Temecula Valley Computer User Group<br>
+        All rights reserved, no portion of this website may be duplicated without written consent.
+    </footer>
+
+    
+</body>
+   
+</html>
+=======
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="TVCUG Website">
+    <meta name="webmaster" content="Ben Burruel">
+    <title>TVCUG About</title>
+    <!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+    <!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+    <!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+    <!--[if gt IE 8]> <html class=""> <![endif]-->
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- Latest compiled and minified  BootStrap CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="shortcut icon" type="image/gif" href="img/logos/tvcug_logo.gif" />
+    
+</head>
+
+<body>
+    
+    <header>
+        <img src="img/tvcug_logo_hdr.jpg" alt="tvcug_header" width="100%">
+    </header>
+    <div class="topnav">
+            <ul class="nav nav-tabs">
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="directions.html">Directions</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li class="active"><a href="aboutus.html">About Us</a></li>
+            </ul>
+        </div><!-- close row -->
+            
+    <div class="col-md-2" id="left_column">
+        <figure id="us_flag">
+            <img id="pole" src="img/flagpole.gif" alt="flagpole"/>
+            <!--<img id="pole-sm" src="img/flagpole.gif" alt="flagpole" height="100"/>-->
+            <img id="flag" src="img/Usflag_ani.gif" alt="us_flag" width="170" height="100"/>
+        </figure>
+        
+        <div class="clear">
+        </div>
+        
+        <div id="apcug">
+            <a href="http://www.apcug2.org">
+                <img id="apcug-logo" src="img/Member-of-APCUG-Square-400-Wide.jpg" alt="apcug_logo">
+            </a>
+        </div>
+    </div>
+    <main id="content" class="group" role="main">
+    
+        <section class="jumbotron" id="welcome">
+            <h1>About Us</h1>
+            </p>
+            <h3>
+                <p>
+                    The Temecula Valley Computer User Group (TVCUG) was established in 1991 to educate people on the use of PCs and we continue today to help users as new technologies develop.
+                </p>
+                <p>
+                    We are a cooperative community which means that we welcome people of all experience levels from novice to expert.  
+                </p>
+                <p>
+                    If you would like to become a member, please contact our <a href="mailto:tvcug.membership@gmail.com?subject=Membership questions">Membership Chair</a>.
+                    Memberships are calendar year to calendar year.  The cost is:<br>
+                    <br>
+                        Paid Jan thru June: <br>
+                        Family: $40.00<br>
+                        Individual: $25.00<br>
+                    <br>
+                        Paid July thru Dec: <br>
+                        Family: $20.00<br>
+                        Individual: $12.50<br>
+                    <br>
+                        All renewals are due by January 31 of each year.                          
+                </p>
+            </h3>
+        </section>
+        <div class="row">
+            <ul class="bottom-nav">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="directions.html">Directions</a>
+                </li>
+                <li>
+                    <a href="contactus.html">Contact Us</a>
+                </li>
+                <li class="active">
+                    <a href="aboutus.html">About Us</a>
+                </li>
+            </ul>
+        </div>
+    </main>
+
+    <footer role="contentinfo">
+        &copy2008-2014 Temecula Valley Computer User Group<br>
+        All rights reserved, no portion of this website may be duplicated without written consent.
+    </footer>
+
+    
+</body>
+   
+</html>
+>>>>>>> 20140717
