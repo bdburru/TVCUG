@@ -1,0 +1,29 @@
+.left_column {
+	clear: both;
+	background: -webkit-linear-gradient(left, rgba(0,0,255,0), rgba(0,0,255,1)); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, rgba(0,0,255,0), rgba(0,0,255,1)); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, rgba(0,0,255,0), rgba(0,0,255,1)); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(0deg, rgba(0,0,126,0.25), rgba(0,0,126,1));
+    
+
+   
+}
+
+//MEDIA QUERIES FOR RESPONSIVENESS
+
+@media screen and (min-width: 1281px) and (max-width: 1920px)   {
+}
+
+@media screen and (min-width: 1081px) and (max-width: 1280px)   {
+}
+
+@media screen and (min-width: 721px)  and (max-width: 1080px)   {
+}
+
+@media screen and (min-width: 481px)  and (max-width: 720px)    {
+}
+
+@media screen and (min-width: 281px) and (max-width: 401px)     {
+}
+@media screen and (min-width: 1px) and (max-width: 280px) {
+}

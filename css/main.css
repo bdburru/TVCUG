@@ -76,6 +76,11 @@ main{
     font-weight: bold;
     font-size: 36px;
 }
+
+.active {
+    font-weight:bold;
+}
+
 .jumbotron h1, .jumbotron .h1 {
     font-size: 40px;
     color: blue;
