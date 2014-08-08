@@ -1,0 +1,43 @@
+//TVCUG Website 
+
+//VARIABLES
+
+$base : #d8e7ed;
+$accent : #000;
+
+$basefont : "Trebuchet MS", sans-serif;
+
+//TRANSITIONS
+
+%transition {
+    -moz-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+@mixin rounded($radius: 7px){
+    border-radius: $radius;
+    behavior: url(css/vendor/PIE-1.0.0/PIE.htc);
+}
+
+
+
+//MEDIA QUERIES FOR RESPONSIVENESS
+
+@media screen and (min-width: 1281px) and (max-width: 1920px)   {
+}
+
+@media screen and (min-width: 1081px) and (max-width: 1280px)   {
+}
+
+@media screen and (min-width: 721px)  and (max-width: 1080px)   {
+}
+
+@media screen and (min-width: 481px)  and (max-width: 720px)    {
+}
+
+@media screen and (min-width: 281px) and (max-width: 401px)     {
+}
+@media screen and (min-width: 1px) and (max-width: 280px) {
+}

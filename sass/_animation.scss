@@ -1,0 +1,52 @@
+//Animation Set-update:
+
+$a-screen-count:    4;  // How many screens in the slide show.
+$a-screen-duration: 3;  // How long will each screen be displayed at full opacity.
+$a-fade-duration:   1;  // How long should it take to fade in and later out.
+
+//Calculations:
+
+$a-msg-duration: $a-screen-duration + $a-fade-duration;     // How long is one screen's animation
+$a-total-duration: $a-msg-duration * $a-screen-count;       // How long for slide show
+$a-screen-percent: 100% / $a-screen-count;
+$a-fade-percent: $a-fade-duration / $a-total-duration * 100%;
+$a-hide-percent: $a-fade-percent + $a-screen-percent;
+
+
+//@warn 'hide-pct: ' $a-hide-percent  ' fade-pct: ' $a-fade-percent;
+//Animation set-up step-1
+
+@mixin fadeInOut{
+    0%                                      {opacity: 0;}
+    #{$a-fade-percent},#{$a-screen-percent} {opacity: 1;}
+    #{$a-hide-percent}                      {opacity: 0;}
+}
+
+$vendors: "-webkit-", "-moz-", "-o-", "";
+
+
+@-webkit-keyframes adAnimation{ @include fadeInOut;}
+@-moz-keyframes adAnimation{ @include fadeInOut;}
+@-o-keyframes adAnimation{ @include fadeInOut;}
+@keyframes adAnimation{ @include fadeInOut;}
+
+
+//Animation Step 2
+
+.ad {
+    .msg{
+        @each $vendor in $vendors {
+            #{$vendor}animation: adAnimation #{$a-total-duration}s infinite;
+        }
+        
+        
+        @for $i from 1 through $a-screen-count{
+            &:nth-of-type(#{$i}){
+                @each $vendor in $vendors {
+                    #{$vendor}animation-delay: #{($i - 1) * $a-msg-duration}s;
+                }
+            }
+        }
+    }
+}
+

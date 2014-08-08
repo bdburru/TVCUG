@@ -1,0 +1,335 @@
+/* line 1, ../sass/_bs.scss */
+.jumbotron {
+  background-color: #d8e7ed;
+  text-align: center;
+}
+/* line 4, ../sass/_bs.scss */
+.jumbotron h1 h2 h3 h4 h5 h6 {
+  text-align: center;
+}
+
+/* line 8, ../sass/_nav.scss */
+#nav.jumbotron {
+  height: 3em;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 14, ../sass/_nav.scss */
+.nav li {
+  background-color: #d8e7ed;
+  color: black;
+  display: inline-block;
+  text-align: center;
+  border-bottom: 3px solid #fff;
+}
+
+/* line 27, ../sass/_nav.scss */
+.nav-tabs li {
+  width: 25%;
+}
+
+@media screen and (min-width: 281px) and (max-width: 480px) {
+  /* line 50, ../sass/_nav.scss */
+  .nav {
+    width: 100%;
+  }
+  /* line 52, ../sass/_nav.scss */
+  .nav li {
+    font-size: 10px;
+    display: table;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1px) and (max-width: 280px) {
+  /* line 60, ../sass/_nav.scss */
+  .nav {
+    width: 100%;
+  }
+  /* line 62, ../sass/_nav.scss */
+  .nav li {
+    font-size: 10px;
+    display: table;
+    text-align: center;
+  }
+}
+/* line 1, ../sass/_leftcol.scss */
+.left_column {
+  clear: both;
+  background: -webkit-linear-gradient(left, rgba(0, 0, 255, 0), blue);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, rgba(0, 0, 255, 0), blue);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, rgba(0, 0, 255, 0), blue);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(0deg, rgba(0, 0, 126, 0.25), #00007e);
+}
+
+/* line 18, ../sass/_images.scss */
+.headerimg {
+  margin: auto;
+  padding-top: 3px;
+}
+
+/* line 23, ../sass/_images.scss */
+.usflag {
+  margin: auto;
+  display: block;
+  height: 18em;
+  position: relative;
+}
+/* line 28, ../sass/_images.scss */
+.usflag .pole {
+  position: absolute;
+  float: left;
+  height: 90%;
+  width: 5%;
+  top: 1%;
+  left: 1%;
+  display: inline;
+}
+/* line 38, ../sass/_images.scss */
+.usflag .flag {
+  height: 29.7%;
+  width: 59.4%;
+  position: absolute;
+  top: 4%;
+  left: 6.25%;
+}
+
+/* line 48, ../sass/_images.scss */
+.apcug-logo {
+  clear: both;
+  width: 90%;
+  margin: 2%;
+  position: relative;
+  top: 96%;
+  padding: 5% 0 0 5%;
+}
+
+@media screen and (min-width: 721px) and (max-width: 1080px) {
+  /* line 64, ../sass/_images.scss */
+  .usflag {
+    height: 16em;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 720px) {
+  /* line 69, ../sass/_images.scss */
+  .usflag {
+    height: 14em;
+  }
+}
+@media screen and (min-width: 281px) and (max-width: 401px) {
+  /* line 76, ../sass/_images.scss */
+  .usflag {
+    height: 12em;
+  }
+}
+@media screen and (min-width: 1px) and (max-width: 280px) {
+  /* line 83, ../sass/_images.scss */
+  .usflag {
+    height: 6em;
+  }
+}
+@-webkit-keyframes adAnimation {
+  /* line 20, ../sass/_animation.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 21, ../sass/_animation.scss */
+  6.25%,25% {
+    opacity: 1;
+  }
+
+  /* line 22, ../sass/_animation.scss */
+  31.25% {
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes adAnimation {
+  /* line 20, ../sass/_animation.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 21, ../sass/_animation.scss */
+  6.25%,25% {
+    opacity: 1;
+  }
+
+  /* line 22, ../sass/_animation.scss */
+  31.25% {
+    opacity: 0;
+  }
+}
+
+@-o-keyframes adAnimation {
+  /* line 20, ../sass/_animation.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 21, ../sass/_animation.scss */
+  6.25%,25% {
+    opacity: 1;
+  }
+
+  /* line 22, ../sass/_animation.scss */
+  31.25% {
+    opacity: 0;
+  }
+}
+
+@keyframes adAnimation {
+  /* line 20, ../sass/_animation.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 21, ../sass/_animation.scss */
+  6.25%,25% {
+    opacity: 1;
+  }
+
+  /* line 22, ../sass/_animation.scss */
+  31.25% {
+    opacity: 0;
+  }
+}
+
+/* line 37, ../sass/_animation.scss */
+.ad .msg {
+  -webkit-animation: adAnimation 16s infinite;
+  -moz-animation: adAnimation 16s infinite;
+  -o-animation: adAnimation 16s infinite;
+  animation: adAnimation 16s infinite;
+}
+/* line 44, ../sass/_animation.scss */
+.ad .msg:nth-of-type(1) {
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay: 0s;
+  animation-delay: 0s;
+}
+/* line 44, ../sass/_animation.scss */
+.ad .msg:nth-of-type(2) {
+  -webkit-animation-delay: 4s;
+  -moz-animation-delay: 4s;
+  -o-animation-delay: 4s;
+  animation-delay: 4s;
+}
+/* line 44, ../sass/_animation.scss */
+.ad .msg:nth-of-type(3) {
+  -webkit-animation-delay: 8s;
+  -moz-animation-delay: 8s;
+  -o-animation-delay: 8s;
+  animation-delay: 8s;
+}
+/* line 44, ../sass/_animation.scss */
+.ad .msg:nth-of-type(4) {
+  -webkit-animation-delay: 12s;
+  -moz-animation-delay: 12s;
+  -o-animation-delay: 12s;
+  animation-delay: 12s;
+}
+
+/* line 2, ../sass/_ads.scss */
+.ad {
+  clear: both;
+  margin: 10px 0 30px;
+  width: 100%;
+  height: 90px;
+  color: #d8e7ed;
+  background-color: black;
+  font-size: 2em;
+  float: left;
+  overflow: hidden;
+  position: relative;
+}
+/* line 13, ../sass/_ads.scss */
+.ad .msg {
+  padding-left: 40px;
+  width: 100%;
+  font-size: 2em;
+  line-height: 90px;
+  position: absolute;
+  top: 0;
+  background-color: black;
+  opacity: 0;
+}
+/* line 23, ../sass/_ads.scss */
+.ad .msg .img {
+  height: 100%;
+}
+/* line 26, ../sass/_ads.scss */
+.ad .msg:firstChild {
+  opacity: 1;
+}
+
+/* line 31, ../sass/_ads.scss */
+.newsletter {
+  height: 70px;
+  width: 70px;
+  margin-top: 10px;
+  padding: 10px 8px;
+  background-color: #d8e7ed;
+  float: right;
+  font-weight: bold;
+  text-align: center;
+}
+/* line 41, ../sass/_ads.scss */
+.newsletter a {
+  color: black;
+}
+
+/* line 2, ../sass/_footer.scss */
+footer {
+  clear: both;
+  color: #fff;
+  text-align: center;
+}
+
+/* line 10, ../sass/style.scss */
+body {
+  background-image: url("../img/tvcug_backgrd.gif");
+}
+
+/* line 14, ../sass/style.scss */
+#content {
+  float: right;
+  background-color: white;
+  text-align: center;
+}
+
+@media screen and (min-width: 1px) and (max-width: 280px) {
+  /* line 36, ../sass/style.scss */
+  h1, .h1, #welcome h1, #event h1, .jumbotron h1, .jumbotron .h1 {
+    font-size: 80%;
+  }
+
+  /* line 39, ../sass/style.scss */
+  h2, .h2, #welcome h2, #event h2, .jumbotron h2, .jumbotron .h2 {
+    font-size: 75%;
+  }
+
+  /* line 42, ../sass/style.scss */
+  h3, .h3, #welcome h3, #event h3, .jumbotron h3, .jumbotron .h3 {
+    font-size: 72%;
+  }
+
+  /* line 45, ../sass/style.scss */
+  h4, .h4, #welcome h4, #event h4, .jumbotron h4, .jumbotron .h4 {
+    font-size: 68%;
+  }
+
+  /*#welcome email {*/
+  /* line 52, ../sass/style.scss */
+  .email a {
+    font-size: 10px;
+    float: left;
+    margin: 0;
+    padding: 0;
+  }
+}
