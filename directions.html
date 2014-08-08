@@ -17,42 +17,51 @@
     <![endif]-->
     <!-- Latest compiled and minified  BootStrap CSS -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="shortcut icon" type="image/gif" href="img/logos/tvcug_logo.gif" />
     
+    <!-- JavaScript -->
+    <script src="js/vendor/jquery-2.1.1.min.js" type="text/jscript"></script>
+    <script src="js/vendor/bootstrap.min.js" type="text/javascript"></script> 
+    <script src="js/style.js" type="text/javascript"></script>
+        
 </head>
 
 <body>
-    
+ <div class="col-xs-12" id="container">    
     <header>
-        <img src="img/tvcug_logo_hdr.jpg" alt="tvcug_header" width="100%">
+        <img class="headerimg" src="img/tvcug_logo_hdr.jpg" alt="tvcug_header" width="100%"/>
     </header>
-    <div class="topnav">
-            <ul class="nav nav-tabs">
-                <li><a href="index.html" >Home</a></li>
-                <li class="active"><a href="directions.html">Directions</a></li>
-                <li><a href="contactus.html">Contact Us</a></li>
-                <li><a href="aboutus.html">About Us</a></li>
-            </ul>
-        </div><!-- close row -->
+
+
+    <div class="col-xs-2 left_column">
+            <div class="usflag">
+                <img class="pole" src="img/flagpole.gif" alt="flagpole"/>
+                <img class="flag" src="img/Usflag_ani.gif" alt="us_flag"/>
+            </div>
+
+            <div class="clear">
+            </div>
+
+            <div id="apcug" class="sponsor col-md-10 col-sm-10 col-xs-10">
+                <a href="http://www.apcug2.org">
+                    <img class="apcug-logo" src="img/Member-of-APCUG-Square-400-Wide.jpg" alt="apcug_logo">
+                </a>
+            </div>
+        </div>
+        <main id="content" class="group col-xs-10" role="main">
             
-    <div class="col-md-2" id="left_column">
-        <figure id="us_flag">
-            <img id="pole" src="img/flagpole.gif" alt="flagpole"/>
-            <!--<img id="pole-sm" src="img/flagpole.gif" alt="flagpole" height="100"/>-->
-            <img id="flag" src="img/Usflag_ani.gif" alt="us_flag" width="170" height="100"/>
-        </figure>
+            <div class="row">
+                <ul class="nav nav-tabs">
+                    <li><a href="index.html" width="100%" >Home</a></li>
+                    <li class="active"><a href="directions.html">Directions</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                </ul>
+            </div><!-- close row -->
         
-        <div class="clear">
-        </div>
-        
-        <div id="apcug">
-            <a href="http://www.apcug2.org">
-                <img id="apcug-logo" src="img/Member-of-APCUG-Square-400-Wide.jpg" alt="apcug_logo">
-            </a>
-        </div>
-    </div>
-    <main id="content" class="group" role="main">
+            <div class="clear">
+            </div>
     
         <section class="jumbotron" id="welcome">
             <h1>Directions</h1>
@@ -88,7 +97,7 @@
             </p>
         </section>
         <div class="row">
-            <ul class="bottom-nav">
+            <ul class="nav nav-tabs">
                 <li>
                     <a href="index.html">Home</a>
                 </li>
